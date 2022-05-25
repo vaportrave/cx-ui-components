@@ -1,0 +1,37 @@
+{
+  "name": "cx-components-example",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.0",
+    "@material-ui/icons": "^4.5.0",
+    "@material-ui/styles": "^4.9.0",
+    "classnames": "^2.2.6",
+    "cx-ui-components": "git+ssh:git@github.com:transport-exchange-group/cx-ui-components.git#library",
+    "prop-types": "^15.5.4",
+    "react": "^16.0.0",
+    "react-dates": "^20.2.2",
+    "react-dom": "^16.0.0",
+    "react-scripts": "^3.4.1",
+    "react-select": "^2.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
